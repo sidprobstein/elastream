@@ -31,7 +31,7 @@ Clone this repo
 git clone https://github.com/sidprobstein/elastream
 ```
 
-Modify [elastream/elastream.py] with the appropriate elasticsearch details:
+Modify [elastream/elastream.py](elastream/elastream.py) with the appropriate elasticsearch details:
 
 ```
 es = Elasticsearch(
