@@ -4,7 +4,7 @@ Elastream is a python script that streams data from elasticsearch to postgresql.
 
 ## Outline
 
-[elastream/elastream.py](elastream/elastrem.py) fetches data  every hour, as defined by the `interval_seconds` variable. It issues a range query for Elasticsearch to fetch documents with a timestamp greater than the last recorded fetch. 
+[elastream/elastream.py](elastream/elastream.py) fetches data  every hour, as defined by the `interval_seconds` variable. It issues a range query for Elasticsearch to fetch documents with a timestamp greater than the last recorded fetch. 
 
 After fetching the data, the script reports the number of new documents found and inserts them into the PostgreSQL database. 
 
